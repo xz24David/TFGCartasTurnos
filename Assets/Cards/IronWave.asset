@@ -10,9 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b03e4648af04dd64f83ddd8e6e78b245, type: 3}
-  m_Name: Defender
+  m_Name: IronWave
   m_EditorClassIdentifier: 
-  cardName: Defender
-  descrption: ganas 5  de escudo
+  cardName: IronWave
+  isUpgraded: 0
+  cardDescription:
+    baseAmount: Gain 5 Block, Deal 5 Damage
+    upgradedAmount: Gain 8 Block, Deal 8 Damage
+  cardCost:
+    baseAmount: 1
+    upgradedAmount: 1
+  cardEffect:
+    baseAmount: 5
+    upgradedAmount: 5
+  buffAmount:
+    baseAmount: 5
+    upgradedAmount: 5
   artwork: {fileID: 0}
-  cost: 1
+  cardType: 0
+  cardClass: 0
+  cardTargetType: 1

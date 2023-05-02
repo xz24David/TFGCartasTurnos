@@ -10,23 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b03e4648af04dd64f83ddd8e6e78b245, type: 3}
-  m_Name: Blood Letting
+  m_Name: Armamento
   m_EditorClassIdentifier: 
-  cardName: Bloodletting
-  isUpgraded: 0
-  cardDescription:
-    baseAmount: Lose 3 HP. Gain 2 Energy
-    upgradedAmount: Lose 3 HP. Gain 3 Energy
-  cardCost:
-    baseAmount: 0
-    upgradedAmount: 0
-  cardEffect:
-    baseAmount: 8
-    upgradedAmount: 8
-  buffAmount:
-    baseAmount: 5
-    upgradedAmount: 5
+  cardName: Armamento
+  descrption: ganas 5 de escudo, mejora una carta en tu mano
+  cost: 1
   artwork: {fileID: 0}
-  cardType: 1
-  cardClass: 0
-  cardTargetType: 0

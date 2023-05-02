@@ -14,10 +14,10 @@ public class CardDisplay : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        nameText.text = card.name;
+       /* nameText.text = card.name;
         EffectText.text = card.descrption;
         CostText.text = card.cost;
-        artworkImagen.sprite = card.artwork;
+        artworkImagen.sprite = card.artwork;*/
 
         Debug.Log(card.name);
     }
